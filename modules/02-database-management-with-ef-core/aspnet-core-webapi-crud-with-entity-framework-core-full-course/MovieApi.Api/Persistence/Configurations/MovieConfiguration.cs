@@ -40,5 +40,6 @@ public class MovieConfiguration : IEntityTypeConfiguration<Movie>
 
         // Optional: Add indexes for better query performance
         builder.HasIndex(m => m.Title);
+
     }
 }

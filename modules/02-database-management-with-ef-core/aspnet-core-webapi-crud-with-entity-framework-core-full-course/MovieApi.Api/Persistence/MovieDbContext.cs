@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MovieApi.Api.Models;
+using MovieApi.Api.Models; // Ajusta el namespace según tus entidades
 
 namespace MovieApi.Api.Persistence;
 

@@ -16,6 +16,7 @@ builder.Services.AddDbContext<MovieDbContext>(options =>
     options.UseNpgsql(connectionString);
 });
 
+
 // Register services
 builder.Services.AddTransient<IMovieService, MovieService>();
 
